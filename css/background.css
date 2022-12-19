@@ -7,5 +7,11 @@ body {
   height: 400px;
   background-color: pink;
   background-image: url("./../images/css.jpg");
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
+  /* background-size: cover; */
+  /* contain이나 cover는 이미지 원본비율 가로축(cover)-세로축(contain)을 맞춰준다 */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background: pink url("./../images/css.jpg") no repeat 50% 0 / 100% 100%;
 }
