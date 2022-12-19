@@ -1,0 +1,11 @@
+body {
+  background-color: bisque;
+}
+
+.container {
+  width: 1000px;
+  height: 400px;
+  background-color: pink;
+  background-image: url("./../images/css.jpg");
+  background-size: 100% 100%;
+}
